@@ -12,7 +12,7 @@ html {
 }
 
 .body__backgroundImage {
-    background-image: url("https://i.ibb.co/LZNGWZ0/background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
     max-width: 100%;
