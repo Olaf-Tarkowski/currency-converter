@@ -10,7 +10,7 @@ formElement.addEventListener("input", () => {
     let currency = currencyElement.value;
 
     wantElement.value = have / currency;
-wantElement.value = (have / currency).toFixed(2);
+    wantElement.value = (have / currency).toFixed(2);
     console.log(wantElement);
 })
 
