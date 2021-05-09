@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Josefin+Slab:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/header.css" rel="stylesheet">
+    <link href="/css/form.css" rel="stylesheet">
+    <link href="/css/footer.css" rel="stylesheet">
+    <script defer src="/js/script.js"></script>
+</head>
+
+<body class="body">
+    <div class="body__backgroundImage">
+    </div>
+    <header class="header">
+        <h1 class="header__title">Welcome in Currency Converter </h1>
+        <p class="header__paragraph">nobody can cheat you here, i guess?</p>
+    </header>
+    <form class="form js-form">
+
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Currency converter</legend>
+            <p>
+                <label class="form__label"> I have: PLN
+
+                    <p><input class="form__number js-currency__have" type="number" step="any"></p>
+                </label>
+            </p>
+            <p>
+                <label class="form__label"> I want:
+                    <select class="form__select js-currency">
+                        <option value="4.5622">EUR</option>
+                        <option value="3.7736">USD</option>
+                        <option value="5.2474">GBP</option>
+                        <option value="4.1282">CHF</option>
+                    </select>
+                    <p><input class=" form__number js-currency__want" type="number" min="0" step="0.01"></p>
+                </label>
+            </p>
+        </fieldset>
+    </form>
+    <footer class="footer">YouCode</footer>
+</body>
+
+</html>
